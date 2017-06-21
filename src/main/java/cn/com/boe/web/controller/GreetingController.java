@@ -21,4 +21,9 @@ public class GreetingController {
         return "greeting";
     }
 
+    @RequestMapping("/Access_Denied")
+    public String denied(){
+        return "denied";
+    }
+
 }
